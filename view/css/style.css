@@ -1,0 +1,258 @@
+#success {
+
+    background:#dd9933;
+    color:#000;
+    width:100%;
+    height:50px;
+
+    text-align:center;
+    display:none;
+}
+   .navbar-expand-sm
+   {
+       background-color:#dd9933;
+
+         color: #ffffff;
+
+
+}
+.colorchange{
+  animation: colorchangecake 1s infinite;
+}
+@keyframes colorchangecake {
+  0%{color: red;}
+    25%{color: yellow;}
+    50%{color: #fff;}
+    100%{color: red;}
+}
+
+
+.card-body:hover
+{
+ border-style: 5px solid #dd9933;
+}
+
+
+.card:hover{
+
+    box-shadow: 3px 3px 3px 3px #dd9933;
+}
+
+
+#nav-button
+{
+color:#fff;
+border: 1px solid #fff;
+
+}
+#nav-button:hover
+{
+ color:#dd9933;
+border: 1px solid #dd9933;
+
+}
+#button:hover
+{
+    background-color: #dd9933;
+
+}
+
+.bt
+{
+
+  color: #000;
+  background-color: #dd9933;
+  border-color:#fff;
+
+}
+.bt:hover
+{
+
+  color: #fff;
+
+  box-shadow: 2px 2px 2px 2px 1px  grey;
+
+
+}
+  .dropdown-menu
+{
+   background-color:#dd9933;
+    color: #fff;
+
+}
+.dropdown-menu a:hover
+{
+  background-color: #dd9933;
+}
+
+.dropdown:hover .dropdown-menu, .btn-group:hover .dropdown-menu
+{
+		display: block;
+	}
+
+.dropdown:hover .dropdown
+{
+  background-color: #dd9933;
+}
+.carousel{
+    background-image: url("../imges/bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+}
+
+
+hr.style1{
+	border-top: 1px solid #8c8b8b;
+}
+#con-bg{
+background-image: url("../images/bg.jpg");
+
+}
+.event-box{
+
+    background-image: url("../images/bg.jpg");
+    display: inline inline-block;
+}
+
+.card-box
+{
+   height: 500px;
+    width: 300px;
+    margin:15px;
+    padding:2px;
+
+    border: 2px solid #dd9933;
+
+    }
+
+.img_e
+{
+ height: 200px;
+    width: 180px;
+    padding: 1px;
+
+
+
+
+}
+
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.carousel-item{
+  margin-bottom: 20px;
+  margin-top: 20px;
+    text-align: center;
+    min-height: 280px; /* Prevent carousel from being distorted if for some reason image doesn't load */
+}
+carousel-inner>.item {
+    position: relative;
+    max-height: 600px;
+}
+
+.nav-link{
+  color:#ffffff;
+}
+.nav-link:hover{
+  background-color:#dd9933;
+  color:#ffffff;
+
+}
+.dropdown-item:hover
+{
+    color:#ffffff;
+}
+.foo-container {
+
+height: auto;
+width: auto;
+}
+.btn-secondary
+{
+    background-color: #dd9933;
+
+}
+
+.btn-danger
+{
+  background-color: #dd9933;
+}
+
+#Web_name
+{
+    color:white;
+    text-align:left;
+    font-size: 40px ;
+    line-height:1;
+    margin-top: 40px;
+}
+
+#enro{
+
+  background-image: url("../imges/tra.jpg");
+}
+.list-group-item{
+
+  width: 150px;
+  float: right;
+}
+.bs-example{
+  direction:rtl;
+
+}
+.df{
+  text-decoration: none;
+  color: #f5076a;
+}
+.df:hover{
+  text-decoration-line: underline;
+
+
+}
+.error
+{
+color: red;
+}
+
+
+
+
+
+*[role="form"] {
+    max-width: 530px;
+    padding: 15px;
+    margin: 0 auto;
+    border-radius: 0.3em;
+    background-color: #f2f2f2;
+}
+
+*[role="form"] h2 {
+    font-family: 'Open Sans' , sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    color: #000000;
+    margin-top: 5%;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+/*--------------------------------*/
+
+h3
+{
+
+    color:#dd9933;
+}
+
+h5
+{
+  color:#dd9933;
+}
